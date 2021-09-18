@@ -17,9 +17,21 @@ function Nav() {
         userService.logout();
     }
 
-    // only show nav when logged in
-    if (!user) return null;
-    
+    //Nav Bar to Show to Guest Users
+    if (!user){
+    return (
+        <nav className="navbar navbar-expand navbar-dark bg-dark">
+            <div className="navbar-nav">
+                <NavLink href="/" exact className="nav-item nav-link">Home</NavLink>
+                <NavLink href="/about" exact className="nav-item nav-link">About</NavLink>
+
+            </div>
+        </nav>
+    );  
+    }
+
+    //Nav Bar to Show to Logged in Users
+    else{
     return (
         <nav className="navbar navbar-expand navbar-dark bg-dark">
             <div className="navbar-nav">
@@ -29,4 +41,5 @@ function Nav() {
             </div>
         </nav>
     );
+    }
 }

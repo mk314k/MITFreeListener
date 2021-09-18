@@ -58,7 +58,7 @@ function App({ Component, pageProps }) {
                 <link href="//netdna.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
             </Head>
 
-            <div className={`app-container ${user ? 'bg-light' : ''}`}>
+            <div className={`app-container ${user ? 'bg-light' : 'bg-light'}`}>
                 <Nav />
                 <Alert />
                 {authorized &&

@@ -65,6 +65,14 @@ function Register() {
                             <input name="password" type="password" {...register('password')} className={`form-control ${errors.password ? 'is-invalid' : ''}`} />
                             <div className="invalid-feedback">{errors.password?.message}</div>
                         </div>
+                        <div className="form-group">
+                            <label>Class Year</label>
+                            <input name="classYear" type="radio" value="2022" className={'form-control'}></input>
+                            <input name="classYear" type="radio" value="2023" className={'form-control'}></input>
+                            <input name="classYear" type="radio" value="2024" className={'form-control'}></input>
+                            <input name="classYear" type="radio" value="2025" className={'form-control'}></input>
+                        </div>
+
                         <button disabled={formState.isSubmitting} className="btn btn-primary">
                             {formState.isSubmitting && <span className="spinner-border spinner-border-sm mr-1"></span>}
                             Register

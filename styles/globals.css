@@ -24,12 +24,15 @@ a { cursor: pointer; }
     text-align: center;
   }
   
+  .section {
+      padding-top: 50px;
+  }
 .grid {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 800px;
-    height: 300px;
+    height: 200px;
     margin-top: rem;
   }
 

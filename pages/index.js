@@ -14,7 +14,7 @@ export default function Home() {
         </p>
 
         <div className="grid">
-          <a href="/listen" className="gridItem">
+          <a href="/what" className="gridItem">
             <p className="buttonLabel">Need to Talk</p>
           </a>
 

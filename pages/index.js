@@ -12,23 +12,25 @@ export default function Home() {
         <p className="subTitle">
           Get started by choosing an option below:
         </p>
+        <div className="section">
+          <div className="grid">
+            <a href="/what" className="gridItem">
+              <p className="buttonLabel">Need to Talk</p>
+            </a>
 
-        <div className="grid">
-          <a href="/what" className="gridItem">
-            <p className="buttonLabel">Need to Talk</p>
-          </a>
-
-          <a href="/listener" className="gridItem">
-            <p className="buttonLabel">Ready to Listen</p>
-            <p></p>
-          </a>
-
+            <a href="/listener" className="gridItem">
+              <p className="buttonLabel">Ready to Listen</p>
+              <p></p>
+            </a>
+        </div>
         </div>
       </main>
 
       <footer>
+        <p classname="footerText">
           Built by harryh, henryrh, and mk314k {' '}
-      </footer>
+        </p>
+      </footer >
 
       <style jsx>{`
         main {
@@ -43,12 +45,13 @@ export default function Home() {
         footer {
           width: 100%;
           height: 100px;
-          position: absolute;
+          position: fixed;
           bottom: 0;
-          border-top: 1px solid #eaeaea;
-          display: flex;
+          border-top: 4px solid #eaeaea;
           justify-content: center;
           align-items: center;
+          text=align: center;
+          padding-left: 425px;
         }
 
       `}</style>

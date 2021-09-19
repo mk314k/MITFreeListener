@@ -1,13 +1,17 @@
 {
     "name": "next-js-registration-login-example",
+    “homepage”: “http://mk314k.github.io/MITFreeListener/pages/index.js",
     "version": "0.1.0",
     "private": true,
-    "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start",
-        "lint": "next lint"
+    "scripts": { 
+        "start": "react-scripts start",
+        "predeploy": "npm run dev",
+        "deploy": "gh-pages -d dev",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
     },
+   
     "dependencies": {
         "@hookform/resolvers": "^2.7.1",
         "bcryptjs": "^2.4.3",

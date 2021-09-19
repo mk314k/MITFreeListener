@@ -5,7 +5,7 @@ import { Link } from 'components';
 import JutsuComponent from 'components/JutsuComponent.js';
 
 
-export default function Home() {
+export default function listener() {
   return (
     <div className="p-4">
     <div className="container">

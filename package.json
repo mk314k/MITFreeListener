@@ -12,6 +12,7 @@
         "@hookform/resolvers": "^2.7.1",
         "bcryptjs": "^2.4.3",
         "express-jwt": "^6.1.0",
+        "framer-motion": "^4.1.17",
         "jsonwebtoken": "^8.5.1",
         "next": "^11.1.0",
         "prop-types": "^15.7.2",

@@ -1,10 +1,6 @@
 import React from 'react';
 import Head from 'next/head'
 import {get} from 'url-search-params'
-import { userService } from 'services';
-import { Link } from 'components';
-import JutsuComponent from 'components/JutsuComponent.js';
-import listener from './listener';
 
 export default function What() {
 
@@ -12,26 +8,7 @@ export default function What() {
   let talkType = params.get('type')
   
   function handleSubmit(){
-    let classYears = ""
-    let major = document.getElementById("major").value
-
-    if (document.getElementById("one").checked)
-    {
-      classYears += "2022&"
-    }
-    if (document.getElementById("two").checked)
-    {
-      classYears += "2023&"
-    }
-    if (document.getElementById("three").checked)
-    {
-      classYears += "2024&"
-    }
-    if (document.getElementById("four").checked)
-    {
-      classYears += "2025&"
-    }
-    
+    user = { }
   }
 
   return (
@@ -44,7 +21,7 @@ export default function What() {
         <p className="subTitle">
           Choose your preferences:
         </p>
-        <div className="section">
+        <form action="" method="post" onclick="handleSubmit();" className="section">
             <div className="formGrid">
                 <p className="buttonLabel"> Class Year: </p>
                 <label className="buttonLabel checkBoxText" for="one">
@@ -104,10 +81,10 @@ export default function What() {
             </div>
 
             <div className="grid">
-              <listener />  
+                
             </div>
 
-        </div>
+        </form>
       </main>
 
       <footer>

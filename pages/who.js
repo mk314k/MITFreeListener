@@ -10,7 +10,7 @@ export default function What() {
 
   let params = new URLSearchParams(document.location.search.substring(1));
   let talkType = params.get('type')
-  
+
   function handleSubmit(){
     let classYears = ""
     let major = document.getElementById("major").value

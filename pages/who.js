@@ -38,7 +38,7 @@ export default function What() {
     <div className="container">
       <main>
         <h1 className="title"> 
-          Who do you want to talk to? {talkType}
+          Who do you want to talk to?
         </h1>
 
         <p className="subTitle">

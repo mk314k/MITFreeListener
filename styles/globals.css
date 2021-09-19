@@ -5,6 +5,7 @@ a { cursor: pointer; }
 }
 
 .container {
+    background-image: url('./mit_dome.jpg');
     min-height: 0vh;
     display: flex;
     flex-direction: column;

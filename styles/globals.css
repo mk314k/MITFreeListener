@@ -1,3 +1,11 @@
+@media only screen and (min-width: 1025px) {
+  body {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+}
+
 a { cursor: pointer; }
 
 .app-container {
@@ -9,7 +17,7 @@ a { cursor: pointer; }
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
   }
 
   .title {

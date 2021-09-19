@@ -3,12 +3,15 @@
     “homepage”: “http://mk314k.github.io/MITFreeListener"
     "version": "0.1.0",
     "private": true,
-    "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start",
-        "lint": "next lint"
+    "scripts": { 
+        "start": "react-scripts start",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
     },
+   
     "dependencies": {
         "@hookform/resolvers": "^2.7.1",
         "bcryptjs": "^2.4.3",

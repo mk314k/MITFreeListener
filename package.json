@@ -5,8 +5,8 @@
     "private": true,
     "scripts": { 
         "start": "react-scripts start",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
+        "predeploy": "npm run dev",
+        "deploy": "gh-pages -d dev",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"

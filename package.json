@@ -5,21 +5,16 @@
     "scripts": {
         "dev": "next dev",
         "build": "next build",
-        "start": "next start -p $PORT",
+        "start": "next start",
         "lint": "next lint"
     },
     "dependencies": {
         "@hookform/resolvers": "^2.7.1",
         "bcryptjs": "^2.4.3",
-        "dns": "file:src/mock/dns",
-        "express": "^4.17.1",
         "express-jwt": "^6.1.0",
         "framer-motion": "^4.1.17",
-        "fs": "0.0.1-security",
         "jsonwebtoken": "^8.5.1",
         "loadjs": "^4.2.0",
-        "mongodb": "^4.1.2",
-        "net": "^1.0.2",
         "next": "^11.1.0",
         "prop-types": "^15.7.2",
         "react": "^17.0.2",
@@ -28,7 +23,6 @@
         "react-jutsu": "^3.0.3",
         "react-router-dom": "^5.3.0",
         "rxjs": "^7.3.0",
-        "tls": "0.0.1",
         "url-search-params": "^1.1.0",
         "yup": "^0.32.9"
     },

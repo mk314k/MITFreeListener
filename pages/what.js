@@ -54,10 +54,9 @@ export default function What() {
 
         footer {
             width: 100%;
-            height: 100px;
+            height: 20px;
             position: fixed;
-            bottom: 0;
-            border-top: 4px solid #eaeaea;
+            bottom: 20px;
             justify-content: center;
             align-items: center;
             text=align: center;

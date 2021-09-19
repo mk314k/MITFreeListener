@@ -116,7 +116,7 @@ export default function What() {
 
       <style jsx>{`
         main {
-          padding: 5rem 0;
+          padding: 4.5rem 0;
           flex: 1;
           display: flex;
           flex-direction: column;
@@ -125,15 +125,14 @@ export default function What() {
         }
 
         footer {
-            width: 100%;
-            height: 100px;
-            position: fixed;
-            bottom: 0;
-            border-top: 4px solid #eaeaea;
-            justify-content: center;
-            align-items: center;
-            text=align: center;
-            padding-left: 425px;
+          width: 100%;
+          height: 20px;
+          position: fixed;
+          bottom: 20px;
+          justify-content: center;
+          align-items: center;
+          text=align: center;
+          padding-left: 425px;
         }
 
       `}</style>

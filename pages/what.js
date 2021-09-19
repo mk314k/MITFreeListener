@@ -14,27 +14,27 @@ export default function What() {
         </p>
         <div className="section">
             <div className="grid">
-            <a href="/who" className="gridItem">
+            <a href="/who?type=Academics" className="gridItem">
                 <p className="buttonLabel">Academics</p>
             </a>
 
-            <a href="/who" className="gridItem">
+            <a href="/who?type=Professional" className="gridItem">
                 <p className="buttonLabel">Professional</p>
                 <p></p>
             </a>
             </div>
 
             <div className="grid">
-            <a href="/who" className="gridItem">
+            <a href="/who?type=Mental" className="gridItem">
                 <p className="buttonLabel">Mental Health</p>
             </a>
 
-            <a href="/who" className="gridItem">
+            <a href="/who?type=Social" className="gridItem">
                 <p className="buttonLabel">Social</p>
                 <p></p>
             </a>
             </div>
-
+    
         </div>
       </main>
 

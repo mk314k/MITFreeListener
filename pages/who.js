@@ -1,18 +1,27 @@
+import React from 'react';
 import Head from 'next/head'
-
+import {get} from 'url-search-params'
 
 export default function What() {
+
+  let params = new URLSearchParams(document.location.search.substring(1));
+  let talkType = params.get('type')
+  
+  function handleSubmit(){
+    user = { }
+  }
+
   return (
     <div className="container">
       <main>
-        <h1 className="title">
-          Who do you want to talk to?
+        <h1 className="title"> 
+          Who do you want to talk to? {talkType}
         </h1>
 
         <p className="subTitle">
           Choose your preferences:
         </p>
-        <form action="" method="post" onsubmit="handleSubmit();return false;" className="section">
+        <form action="" method="post" onclick="handleSubmit();" className="section">
             <div className="formGrid">
                 <p className="buttonLabel"> Class Year: </p>
                 <label className="buttonLabel checkBoxText" for="one">
@@ -66,7 +75,7 @@ export default function What() {
             </div> 
 
             <div className="grid">
-                <button className="gridItem buttonLabel">
+                <button onClick={handleSubmit} className="gridItem buttonLabel">
                   Let's Talk
                 </button>
             </div>

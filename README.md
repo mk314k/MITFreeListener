@@ -1,6 +1,7 @@
-# next-js-11-registration-login-example
+# MIT Free Listener
 
-Next.js 11 - User Registration and Login Example
-Hello!
+## Run
+clone this repository <br>
+npm install <br>
+npm run dev <br>
 
-Documentation and live demo available at https://jasonwatmore.com/post/2021/08/19/next-js-11-user-registration-and-login-tutorial-with-example-app
